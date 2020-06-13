@@ -1,0 +1,12 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.autoIndent": "full",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "consolas",
+    "debug.console.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14
+
+}
