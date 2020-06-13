@@ -1,25 +1,16 @@
 #include "sort.h"
 /**
- * 
- */
-
-void travel_list(listint_t **list)
-{
-
-}
-
-
-/**
  * insertion_sort_list - order list use
  * @list: list to Insertion sort algorit implementation
  * Return: Always void
  */
-
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *lt_int = NULL;
-	lt_int = *list;
 
+	lt_int = *list;
+	if (*list != NULL)
+	{
 	while (lt_int->next != NULL)
 	{
 		if (lt_int->n > lt_int->next->n)
@@ -46,14 +37,13 @@ void insertion_sort_list(listint_t **list)
 						lt_int->next->prev = lt_int;
 						*list = lt_int;
 					}
-						print_list(*list);
-					}
+						/*print_list(*list);*/
+				}
 				else
 					lt_int = lt_int->next;
 			}
 		}
-
 		lt_int = lt_int->next;
 	}
+	}
 }
-
