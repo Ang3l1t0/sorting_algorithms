@@ -56,5 +56,6 @@ Write in the file 0-O, the big O notations of the time complexity of the Bubble 
 - in the average case
 - in the worst case
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lyZQPjUT5B4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src ="https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion_sort.gif" type="gif">
 
+![](https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion_sort.gif)
