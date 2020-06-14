@@ -42,6 +42,14 @@ int partition(int *arr, int first, int last, size_t size)
 	return (i);
 }
 
+/**
+ * quickSort - sort a part of the list
+* @arr: array
+ * @first: first element
+ * @last: last element
+ * @size: size
+ * Return: nothing
+ */
 void quickSort(int *arr, int first, int last, size_t size)
 {
 	int pivot;
@@ -54,6 +62,12 @@ void quickSort(int *arr, int first, int last, size_t size)
 	}
 }
 
+/**
+ * quick_sort - quick sort method array
+ * @array: array
+ * @size: size
+ * Return: nothing
+ */
 void quick_sort(int *array, size_t size)
 {
 	if (size < 2)
