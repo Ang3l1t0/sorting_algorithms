@@ -4,9 +4,9 @@
     "editor.tabSize": 4,
     "editor.autoIndent": "full",
     "editor.fontSize": 16,
-    "editor.fontFamily": "consolas",
+    "editor.fontFamily": "monospace",
     "debug.console.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 14
 
 }
