@@ -33,6 +33,11 @@
 			"command": "/usr/bin/gcc",
 			"args": [
 				"-g",
+				"-Wall",
+				"-Wextra",
+				"-Werror",
+				"-pedantic",
+				"${file}",
 				"${fileDirname}/*.c",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
